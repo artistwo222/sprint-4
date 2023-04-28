@@ -24,7 +24,7 @@ function moviesAverageOfDirector(array, director) {
   return parseFloat(averageScore.toFixed(2));
 }
 
-// Exercise 4:  Alphabetic order by title 
+// Exercise 4:  Alphabetic order by title .
 
 function orderAlphabetically(array) {
   const sortedArray = array.slice().sort((a, b) => a.title.localeCompare(b.title));
